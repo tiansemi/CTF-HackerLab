@@ -42,7 +42,7 @@ Let's make a guess.
 
 
 
-```Flag : ``` **CTF_ST3Gh1d3934U9432135** 😹 hack the planet  
+```Flag :``` **CTF_ST3Gh1d3934U9432135** 😹 hack the planet  
 
 > The description of the challenge should be **leet** and not **let me talk**.  
 
