@@ -1,4 +1,0 @@
-
-Amazone
-`grep -o '[^/]*\.megacorpone\.com' index.html | sort -u > list.txt`
- 
