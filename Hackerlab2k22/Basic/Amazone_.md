@@ -30,7 +30,7 @@ We have also tried other methods that we will not mention and that did not work.
 Let's make a guess.
 ``` 
 
->we tried as passphrase: amazon , Amazone, AMAZONE, letmetalk, LetMeTalk , Letmetalk, etc. Finally we found the right passphrase  :joy: : ==4m4z0n3==
+>we tried as passphrase: amazon , Amazone, AMAZONE, letmetalk, LetMeTalk , Letmetalk, etc. Finally we found the right passphrase  :joy: : **4m4z0n3**
 
 `$ steghide extract -sf Amazone.jpeg`
 
@@ -44,5 +44,4 @@ Let's make a guess.
 >La description du challenge devrait etre leet et non let me talk. 
 
 ```
-Flag: CTF_ST3Gh1d3934U9432135
-```
+Flag: ``` **CTF_ST3Gh1d3934U9432135**
