@@ -20,7 +20,7 @@ Flag : CTF_*
 
 >We can see now the hash that I saved.
 
-`# cat hash.txt`
+`$ cat hash.txt`
 ```
 $office$*2013*100000*256*16*744b3976099db961c0b732b3cf844f6b*316c99e8ab8e5b972714d9e8f289f808*09b4dcc218db1d0590a9609ffeb3d1e08bcc10dca254a958b40b018d07ac5670
 ```
@@ -39,7 +39,7 @@ $office$*2013*100000*256*16*744b3976099db961c0b732b3cf844f6b*316c99e8ab8e5b97271
 
 >Let's try to find the XOR key that encode it. We did it in python.
 
-`python3 -c "for i,j in zip(list('CTF_'),list('DSAX')): print(ord(i)^ord(j))"`
+`$ python3 -c "for i,j in zip(list('CTF_'),list('DSAX')): print(ord(i)^ord(j))"`
 >The result is 7 for the four caracters. What's the conclusion?. `7` is the key for the XOR encryption.
 >Let decode it.
 
