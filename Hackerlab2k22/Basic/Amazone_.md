@@ -17,7 +17,7 @@ We used the steghide tool
 `$ steghide info Amazone.jpeg`
 
 
-![amazone.png](/File/amazone.png)
+![amazone.png](/Basic/File/amazone.png)
 
 
 >steghide shows us the presence of a hidden file in the image. However we do not know the passphrase 
