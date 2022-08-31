@@ -16,8 +16,8 @@ We used the steghide tool
 
 `$ steghide info Amazone.jpeg`
 
+<img src="File/amazone.png">
 
-![amazone.png](/Basic/File/amazone.png)
 
 
 >steghide shows us the presence of a hidden file in the image. However we do not know the passphrase 
@@ -36,7 +36,7 @@ Let's make a guess.
 
 
 
-![passphrase.png](/File/passphrase.png)
+
 
 <img src="File/passphrase.png">
 
