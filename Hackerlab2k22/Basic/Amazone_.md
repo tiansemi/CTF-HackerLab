@@ -38,6 +38,8 @@ Let's make a guess.
 
 ![passphrase.png](/File/passphrase.png)
 
+<img src="File/passphrase.png">
+
 
 >La description du challenge devrait etre leet et non let me talk. 
 
