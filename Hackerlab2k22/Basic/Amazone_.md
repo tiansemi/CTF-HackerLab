@@ -16,7 +16,7 @@ We used the steghide tool .
 
 `$ steghide info Amazone.jpeg`
 
-<img src="File/amazone.png">
+<img src="File/photo_2022-09-01_00-14-42.png">
 
 
 
