@@ -1,6 +1,6 @@
 # Hackerlab2022 prequal 
 
-> Writeup of the qualif phase of hackerlab 2022
+> Basic challenge writeup
 
 ## Authors --- TargetRoot  :fire: 
 
