@@ -24,7 +24,7 @@ We used the steghide tool
 So we tried strings on the file but nothing. We also used stegsolve (we tried to play with constrates, colors ,etc..)  to see if the passphrase would not be hidden in the image but still nothing. 
 
 >We decided to brute force with stegseek using the rockyou dictionary but nothing either. At this level we tried all the dictionaries. That we could find but nothing 
-We have also tried other methods that we will not mention and that did not work. Considering that the challenge is rated at 50 pts it shouldn't be a big thing.
+We have also tried other methods that we will not mention and that did not work. Considering that the challenge is rated at 50 pts it shouldn't be a big thing :angry: .
 
 ```
 Let's make a guess.
