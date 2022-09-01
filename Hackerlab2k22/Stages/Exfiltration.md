@@ -25,6 +25,15 @@ So we do
 file1: PNG image data, 757 x 459, 8-bit/color RGB, non-interlaced
 ```
 
+ > filter the type cname queries with tshark 
+ 
+`$ tshark -r capture.pcap -Y "dns.qry.type == 5" -T fields -e dns.qry.name | uniq | cut -d"." -f 1 | xxd -r -p  > file2`
+
+`$file file2`
+```
+file2: Zip archive data, at least v2.0 to extract, compression method=deflate
+```
+
 Arrived at this level it is needed:
 * decompress the zip file n times with unzip to get a bzip2 file  
 * decompress the bzip2 file n times by doing bzip2 -d to get a gzip file 
