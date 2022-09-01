@@ -14,7 +14,7 @@ We'll take a look at the critical modules that can help perform system functions
 
 `>>> print sys`
 
-<img src="jail1.png">
+<img src="File/jail1.png">
 
 >Bingooooooo sys is already there 🥳. What's a next?? 😏... Execute system command.
 So we will look for the os module. Let's use `dir()` method to return a list of valid attributes of sys.
@@ -90,7 +90,7 @@ def crypto_chal():
 
 It is now to decode.
 
-<img src="rsa.png">
+<img src="File/rsa.png">
 
 Let's save this decoded message:
 `Password: S057r0NGbr07213843213HDEZDhd`
@@ -100,7 +100,7 @@ Let's save this decoded message:
 The result
 
 
-<img src="file_data.png">
+<img src="File/file_data.png">
 
 Let's save again this output in a file. Now what is the type of this file? Let's check.
 
