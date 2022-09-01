@@ -10,7 +10,7 @@ Level: Basic, 50pts
 
 <img src="File/ecowas1.png">
 
->To challenge it is a reverse engineering, we will start by observing the code with Ghidra.
+>This challenge it is a reverse engineering, we will start by observing the code with Ghidra.
 
 <img src="File/ecowas2.png">
 
