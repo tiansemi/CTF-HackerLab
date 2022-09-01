@@ -84,8 +84,7 @@ As we can see here there is a lot of invisible characters:
 ```
 
 >It reminds me of Zero Width Space.  You're wondering how I know that, well it's not the first time I've come across it ☺️. I invite you to read this article to understand what it is 👉 [Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66)
-
->Google is your best friend  😃
+Google is your best friend  😃
 a small search on google zero width space decoder and you find this site 😎 [Unicode Steganography with Zero-Width Characters](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjNpPCX7_P5AhWsS_EDHaHbDgQQFnoECAsQAQ&url=https%3A%2F%2F330k.github.io%2Fmisc_tools%2Funicode_steganography.html&usg=AOvVaw3ShU_Jb-nn0r6IBkk1TKer) 
 
 >Let's go decode 
