@@ -18,12 +18,15 @@ PCAP file contains a recorded conversation between a DNS client and a server, wh
 
 $ tshark -r capture.pcap -Y "dns.qry.type == 1" -T fields -e dns.qry.name | uniq | cut -d"." -f 1 | xxd -r -p  > file1
 
+<img src="File/file1.png">
+
 So we do 
 
 `$file file1`
 ```
 file1: PNG image data, 757 x 459, 8-bit/color RGB, non-interlaced
 ```
+<img src="File/file2.png">
 
  > filter the type cname queries with tshark 
  
@@ -39,19 +42,17 @@ Arrived at this level it is needed:
 * decompress the bzip2 file n times by doing bzip2 -d to get a gzip file 
 * decompress the gzip file n times by doing gzip -d to get a zip file which is password protected 
 
-Honestly, it was a fastidious and useless job.  
-
+>Honestly, it was a fastidious and useless job.  
 So in the end we get two files. An image file and a password protected zip file  
-
 on the image file it says rockyou ft leet. So we thought we should crack the zip password with john using rockyou.txt but nothing yet a prank from the organizers. 
 
-So we made a bruteforce 
+>So we made a bruteforce 
 
 `$ zip2john a.zip > hashes.txt `
 
 `$ john hashes.txt` 
 
->After a few minutes we get the password of the file 😎 : **3c0w45**
+>After a few minutes we get the password of the file 😎 : **3c0w45** et notre fichier flag.txt <img src="File/flag_exifl.txt">
 We obtain our file flag.txt inside there is a code qr written with #. So we just have to scan the code to get the flag 
 
 ```Flag:``` **CTF_W3lc0Me_h4CKER5_338333371819**
