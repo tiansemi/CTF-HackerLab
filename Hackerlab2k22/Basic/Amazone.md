@@ -1,6 +1,6 @@
 
 
-#  Amazone:
+#  Amazone
 ```
 Level: Basic, 50pts 
 ```
