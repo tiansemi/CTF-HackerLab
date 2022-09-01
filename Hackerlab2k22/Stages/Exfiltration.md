@@ -16,17 +16,17 @@ PCAP file contains a recorded conversation between a DNS client and a server, wh
 
 >We can filter the A queries with tshark 
 
-$ tshark -r capture.pcap -Y "dns.qry.type == 1" -T fields -e dns.qry.name | uniq | cut -d"." -f 1 | xxd -r -p  > file1
+`$ tshark -r capture.pcap -Y "dns.qry.type == 1" -T fields -e dns.qry.name | uniq | cut -d"." -f 1 | xxd -r -p  > file1`
 
-<img src="File/file1.png">
 
-So we do 
+
+>So we do 
 
 `$file file1`
 ```
 file1: PNG image data, 757 x 459, 8-bit/color RGB, non-interlaced
 ```
-<img src="File/file2.png">
+
 
  > filter the type cname queries with tshark 
  
@@ -52,7 +52,7 @@ on the image file it says rockyou ft leet. So we thought we should crack the zip
 
 `$ john hashes.txt` 
 
->After a few minutes we get the password of the file 😎 : **3c0w45** et notre fichier flag.txt <img src="File/flag_exifl.txt">
+>After a few minutes we get the password of the file 😎 : **3c0w45** 
 We obtain our file flag.txt inside there is a code qr written with #. So we just have to scan the code to get the flag 
 
 ```Flag:``` **CTF_W3lc0Me_h4CKER5_338333371819**
