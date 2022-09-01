@@ -89,6 +89,8 @@ Our solution will consist in changing the value of admin and brute force the loc
 `$ chmod +x invisible`
 
 And execute it.
+
+
 <img src="File/invisible.png">
 
 >Bingoooo 😌, we can now control the values on the stack from the 8th argument. We will now look for the address of the admin variable. To do this we will use `readelf`
