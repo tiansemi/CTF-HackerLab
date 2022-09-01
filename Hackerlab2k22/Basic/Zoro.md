@@ -13,8 +13,7 @@ Or maybe .... ?
 Flag: CTF_*
 ```
 
-We have a text file hackerlab.txt
-
+>We have a text file hackerlab.txt
 As we can see here there is a lot of invisible characters:
 
 `$ xxd hackerlab.txt `
