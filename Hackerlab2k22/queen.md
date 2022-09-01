@@ -5,14 +5,9 @@ Medium: 600pts
 ## Description
 ```
 The queen has been taken prisoner. They say this is the best jail ever built? Will you be able to break in?
-
 nc 51.38.37.81 7002
-
 Flag: CTF_*
 ```
-
->This challenge is obviously a python jail.
->We'll take a look at the critical modules that can help perform system functions.
 
 > This challenge is obviously a python jail.
 We'll take a look at the critical modules that can help perform system functions. Let's start by seeing if a module(sys) is already imported.
@@ -271,13 +266,13 @@ undefined8 main(void)
 }
 
 ```
-At first glance, it's reverse. We will not dwell on all the functions and instructions, but only the interesting ones.
+>At first glance, it's reverse. We will not dwell on all the functions and instructions, but only the interesting ones.
 Once in the main, it initializes a time and a rand and calls the gen_magic function and puts it in the uVar1 variable. This function does not interest us.
 Afterwards, the checking function is called with the uVar1 as argument as param_1. It initializes two variables: local_c which serves as a check to display the flag (if it is 0 or 1) and local_10 which is a while loop variable. This loop scanf param_1 time. In this loop, it uses the D function on a variable named uVar1 and compares it to our input.
 
-Without explaining too much the D and f functions which are clear, the goal will therefore be just to match our input to the output of the D function. To do this, we will rewrite these two functions and send their results remotely with the pwn module of python. But it should be remembered that an initialization is done. This is the output of the gen_magic function that is displayed to us when we run the file.
+>Without explaining too much the D and f functions which are clear, the goal will therefore be just to match our input to the output of the D function. To do this, we will rewrite these two functions and send their results remotely with the pwn module of python. But it should be remembered that an initialization is done. This is the output of the gen_magic function that is displayed to us when we run the file.
 
-Now here is our exploit.
+>Now here is our exploit.
 
 ```python
 from pwn import *
