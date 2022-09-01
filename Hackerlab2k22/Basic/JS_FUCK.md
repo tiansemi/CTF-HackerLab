@@ -23,7 +23,17 @@ Level: Basic, 10pts
 
 >Once we have decoded it does not take long to understand that each element of cipher is xored with the corresponding index. We then write a code in python to obtain the flag.
 
-<img src="File/js4.png">
+```python
+#!/usr/bin/python3
+
+cipher = [67, 85, 68, 92, 55, 49, 51, 94, 90, 56, 109, 99, 59, 50, 63, 61, 35, 37]
+flag=[]
+for i in range(len(cipher)):
+    flag.append(chr(cipher[i] ^ i))
+
+print(''.join(flag))
+
+```
 
 >By executing our code we get the flag
 
