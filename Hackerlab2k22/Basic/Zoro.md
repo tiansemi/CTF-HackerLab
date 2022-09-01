@@ -1,4 +1,4 @@
-#  Zoro:
+#  Zoro
 ```
 Level:  Basic , 50pts
 ```
