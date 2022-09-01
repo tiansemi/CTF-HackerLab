@@ -130,7 +130,7 @@ def check(s):
 
 >There is the result:
 
-<img src="image.png">
+<img src="File/image.png">
 
 
 >So we are on the right way. We will decode this here: <a href="https://gchq.github.io/CyberChef/">CyberChef</a>.
@@ -143,7 +143,7 @@ def check(s):
 
 >Yes it seems to be a morse code in 3d view:
 
-<img src="model.png">
+<img src="File/model.png">
 
 ```-.-. - ..-. ..--.- .-. ...-- ...- ...-- .-. ... . --. ----- ....- --... ..... --... ...-- --. ----- ----. ----. ----. ----. ----.```
 
