@@ -36,6 +36,7 @@ file1: PNG image data, 757 x 459, 8-bit/color RGB, non-interlaced
 ```
 file2: Zip archive data, at least v2.0 to extract, compression method=deflate
 ```
+we get two files. bash script 😎 is as fun as python 😋
 
 Arrived at this level it is needed:
 * decompress the zip file n times with unzip to get a bzip2 file  
@@ -44,7 +45,7 @@ Arrived at this level it is needed:
 
 >Honestly, it was a fastidious and useless job.  
 So in the end we get two files. An image file and a password protected zip file  
-on the image file it says rockyou ft leet. So we thought we should crack the zip password with john using rockyou.txt but nothing yet a prank from the organizers. 
+on the image file it says rockyou ft leet. So we thought we should crack the zip password with john using rockyou.txt but nothing yet a prank from the organizers 😒 . 
 
 >So we made a bruteforce 
 
@@ -55,4 +56,4 @@ on the image file it says rockyou ft leet. So we thought we should crack the zip
 >After a few minutes we get the password of the file 😎 : **3c0w45** 
 We obtain our file flag.txt inside there is a code qr written with #. So we just have to scan the code to get the flag 
 
-```Flag:``` **CTF_W3lc0Me_h4CKER5_338333371819**
+```Flag:``` **CTF_W3lc0Me_h4CKER5_338333371819**    
