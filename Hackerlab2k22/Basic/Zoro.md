@@ -89,5 +89,6 @@ a small search on google zero width space decoder and you find this site 😎 [U
 
 >Let's go decode 
 
+<img src="File/flag_zero.png">
 
 ```Flag:``` **CTF_z3r0w1dth9947397450252802** 
