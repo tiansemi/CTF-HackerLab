@@ -13,4 +13,8 @@ When we look at the level of "announcements" we have a message that draws our at
 
 <img src="File/discord2.png">
 
->
+>By decoding the content of the message with rot13 we get our flag.
+
+<img src="File/discord3.png">
+
+>```Flag :``` **CTF_aR3Y0UR34dy??????????**
