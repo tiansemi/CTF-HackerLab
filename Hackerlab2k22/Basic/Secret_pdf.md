@@ -1,4 +1,4 @@
-# Secret pdf :
+# Secret pdf 
 
 ```
 Level: Easy, 20pts 
