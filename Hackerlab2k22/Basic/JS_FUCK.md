@@ -21,7 +21,7 @@ Level: Basic, 10pts
 
 <img src="File/js3.png">
 
->Once we have decoded it does not take long to understand that each character of element is ciphered and xored with the corresponding index. We then write a code in python to obtain the flag.
+>Once we have decoded it does not take long to understand that each character of element of cipher is xored with the corresponding index. We then write a code in python to obtain the flag.
 
 <img src="File/js4.png">
 
