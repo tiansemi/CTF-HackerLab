@@ -34,6 +34,18 @@ for i in range(len(cipher)):
 print(''.join(flag))
 
 ```
+>Or in js
+```
+cipher = [67, 85, 68, 92, 55, 49, 51, 94, 90, 56, 109, 99, 59, 50, 63, 61, 35, 37] 
+flag = ''
+function xor_xor(x,y){ return x ^ y; }
+
+for (var i=0; i < cipher.length ; i++){ 
+	flag += String.fromCharCode(xor_xor(cipher[i] ^ i));
+}
+console.log("The flag is",flag);
+
+```
 
 >By executing our code we get the flag
 
