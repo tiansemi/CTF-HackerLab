@@ -12,6 +12,10 @@ Level: Basic, 50pts
 
 >This challenge it is a reverse engineering, we will start by observing the code with Ghidra.
 
+_Create a new project in Ghidra and add the ecowas_portal program to the project. Then do double-click on the program. You will see a new window that displays information. You can follow tutorials to better use Ghidra._
+
+>Going through the code in the Decompiler part on the right, you will find the following section.
+
 <img src="File/ecowas2.png">
 
 >We find several variables in the main which seems to be our flag.When we go through the code a little we notice that the flag is 25 characters which corresponds to the number of variables that we had previously seen. We must then determine which method was used to encrypt the contents of these variables.
