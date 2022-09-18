@@ -59,7 +59,7 @@ Check the source code
 
 >Zutttt nothing there. Next.... the source code
 
-`print sys.modules['os'].system('cat flag.txt')`
+`print sys.modules['os'].system('cat chall.py')`
 
 >The source code is very long. We have two interesting functions: `artefacts()` and `crypto_chall()`.
 
